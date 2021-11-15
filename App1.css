@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+
+
+
+*{
+
+    margin:0;
+    
+    padding:0;
+    
+    }
+    
+     
+    
+    body, html{
+                height:100%;
+                margin: 0;
+                padding: 0;
+                background-color: rgba(248, 246, 244, 0.952);
+            
+    
+    }
+    
+    #Netflix
+    {
+        text-align: center;
+        
+    }
+  
+
+    #Netflix:hover
+
+    {
+        color: red;
+    }
+
+
+    .centre
+    {
+        text-align: center;
+    }
+
+    .centrer {
+        
+        display: block;
+        width: 300px;
+        height: 100px;
+      }
+
+
+
+    .flexheader
+    {
+        display: flex;
+    }
+
+    #headera
+
+    {
+       flex: 80%;
+    }
+
+
+
+    #headerb
+
+    {
+        flex: 1;
+    }
+
+    
+    
+    #main{
+    
+    
+    
+            min-height:100%;
+            
+            margin:0 auto;
+            
+            position:relative;
+            
+            padding-bottom: 10px;
+
+    }
+    
+     
+    
+    footer{
+    
+            background:rgb(29, 27, 27);
+            
+            position:absolute;
+            
+            bottom:0;
+            
+            width:100%;
+            
+            display: flex;
+            
+            height:75px;
+            align-items: center;
+            justify-content: center;
+
+            flex-direction: end;
+           
+        
+    }
+    
+
+    .text
+
+{
+    flex: 1 ;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    
+}
+
+
+
+
+    header
+
+    {
+        display: flex;
+        color: white;
+        background-color: rgb(10, 10, 10);
+        opacity: 5;
+    }
+        
+
+    .flex
+
+    {
+        flex: 1;
+    }
+
+
+
+    .conteneur
+
+    {
+       
+        height: 100%;
+        display: flex;
+       margin: 0;
+       padding: 0;
+      
+        
+    }
+
+
+.flexa
+
+{
+    padding: 0;
+    margin: 80px;
+    border: 1 px;
+    
+    flex: 70%;
+    
+}
+
+.box
+{
+    border: 1px solid black,
+}
+
+.flexb
+
+{
+    flex: 30%;
+    margin-top: 110px;
+    font-family: 'Hind', sans-serif;
+}
+
+.liste
+
+{
+    margin-left: 35px;
+    margin-top: 20px;
+    
+}
+
+
+.liens
+
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.liensa
+
+{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+
+.liensb
+
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover
+
+{
+  color: red;
+ border: none;
+} 
+
+#logo
+
+    {
+        width: 200px;
+        height: 80px;
+       justify-content: center;
+    }
+
+
+.image {
+	width: 800px;
+	height: 500px;
+   
+}
+
+.cc
+
+
+{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
+
+h1
+
+{
+    font-family: 'Hind', sans-serif;
+}
+
+.texte
+
+{
+    font-size: 18px;
+    font-family: 'Hind', sans-serif;
+}
+
+
+
+.italic
+{
+    font-size: 18px;
+    font-style: italic;
+}
+    /*711-398*/

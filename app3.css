@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*
+
+{
+   margin: 0;
+   padding: 0;
+}
+
+
+
+
+body
+
+{
+   background-image: url('https://wallpapercave.com/wp/wp2770223.jpg');
+   background-size: cover;
+   opacity: 0.9;
+}
+
+
+
+
+.flex1
+
+{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.flex2
+
+{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    
+    text-align: center;
+}
+
+.flex3
+
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+h1
+
+{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    transition-duration: 2000ms;
+    transition-property: color, transform ;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+.cabrille
+
+{
+  text-decoration: none;
+  transition-duration: 2000ms;
+    transition-property: color, transform ;
+
+}
+/* Ca brille pas en fait */
+.cabrille:hover
+
+{
+  color:red;
+  transform:rotate(360deg);
+}
+
+h1:hover 
+
+{
+  color: rgba(0, 2, 128, 0.733);
+  
+  transform:rotateY(360deg);
+}
+
+title1:hover
+
+{
+  color:red;
+}
+
+p{
+  
+    text-align: center;
+    color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-shadow:  1px 1px 2px rgba(255, 0, 0, 0.541), 0 0 1em rgba(0, 0, 255, 0.493), 0 0 0.2em rgba(0, 0, 255, 0.226);
+    
+}
+
+
+img
+
+{
+  border: solid 3px;
+  border-radius: 50%;
+  background-color: black;
+    
+    height:100px;
+    width:100px ;
+}
+
+
+
+
+img:hover
+
+{
+  margin: 0;
+  padding: 0;
+  color: red;
+}

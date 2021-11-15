@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+/* https://play.google.com/store/apps/details?id=com.Nussygame.Buriedbornes&hl=fr */
+
+html
+{
+   background-image: url("https://images.alphacoders.com/540/thumb-1920-540771.jpg");
+   background-size: cover; 
+   background-repeat: no-repeat;
+   opacity: 0.9;
+   
+   
+    
+}
+
+
+.fixe
+{
+    height: 150;
+    width: 100px;
+}
+
+.titreheader 
+
+{
+    
+    font-family: 'Frijole', cursive;
+    letter-spacing: 3px;
+    color:white;
+    text-shadow: 2px 2px 5px red;
+    transition-duration: 2000ms;
+    transition-property: color, transform ;
+}
+
+.titreheader:hover
+{
+    color: rgba(0, 2, 128, 0.733);
+    transform:rotate(360deg);
+    transform:rotateY(360deg);
+}
+
+/* color: green;
+    transform:rotate(180deg)  */
+.flex1
+
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.flex2
+
+{
+    display: flex;
+    justify-content: center;
+    border: solid 3px;
+    box-shadow: 6px 6px 6px rgb(255, 0, 0);
+}
+
+.flex3
+
+{
+    display: flex;
+    justify-content: center;
+}
+
+#conteneur
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texte1
+
+{
+    
+   
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.541), 0 0 1em rgba(0, 0, 255, 0.493), 0 0 0.2em rgba(0, 0, 255, 0.226);
+}
+.textbottom
+
+{
+    color: white;
+}
+
+.petit
+
+{
+    border: 2px solid red;
+    border-radius: 50%;
+    height:50px;
+    width:50px ;
+}
+
+.centre
+
+{
+  align-content: center;
+  align-self: center;
+  align-items: center;
+}
